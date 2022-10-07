@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.card {
+  border: solid 1px rgb(153, 153, 153);
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 1px #888888;
+  width: 400px;
+  height: 500px;
+  position: relative;
+}
+.header {
+  background-color: aqua;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/309943382_2016720958512301_1076305859738408360_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=vAc0RcIqTIoAX9YO2_n&_nc_ht=scontent-sea1-1.xx&oh=00_AT9fg0Jgct6qEu7PCkifjspU2ORLnvl7hP-sG9QfZXCxmg&oe=63405C25");
+  background-size: cover;
+  filter: blur(2px);
+}
+
+h3,
+p,
+i {
+  margin-left: 1em;
+}
+
+p,
+.friend,
+.join div {
+  font-size: 18px;
+  color: rgb(153, 153, 153);
+}
+
+button {
+  padding: 10px 15px 10px 15px;
+  background: transparent;
+  color: white;
+  border: solid 3px white;
+  border-radius: 5px;
+  position: absolute;
+  top: 180px;
+  left: 155px;
+  z-index: 1;
+}
+button:hover {
+  background-color: green;
+}
+h3 {
+  margin: 10px 10px 0 24px;
+}
+p {
+  margin: 10px 10px 10px 24px;
+  font-family: revert;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px lightgray;
+  padding-top: 10px;
+}
+.friends {
+  display: flex;
+  align-items: flex-end;
+}
+
+.friend {
+  margin-left: 5px;
+  font-size: 18px;
+}
+.join {
+  display: flex;
+  margin-right: 1em;
+  align-items: flex-end;
+}
+i {
+  color: rgb(153, 153, 153);
+}
+
+#aikol {
+  background-image: url("https://avatars.githubusercontent.com/u/25139196?v=4");
+}
